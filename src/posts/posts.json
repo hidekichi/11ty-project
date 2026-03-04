@@ -1,0 +1,5 @@
+# このように書くことでposts/以下のmd全体に反映させれられます
+# tagsでpostsと入れたものが自動でcollection.blogとして自動で集まります
+
+"layout": "post.njk",
+  "tags": "posts"
