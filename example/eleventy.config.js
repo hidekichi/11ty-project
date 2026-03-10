@@ -56,10 +56,6 @@ export default function (eleventyConfig) {
     return text.length > length ? text.slice(0, length) + "..." : text;
   });
 
-  // -----------------------------------------------------------------
-  // plugins
-  // -----------------------------------------------------------------
-
   eleventyConfig.addPlugin(EleventyPluginRss);
 
   // -----------------------------------------------------------------

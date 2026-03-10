@@ -1,4 +1,4 @@
-/* TailwindCSS v4 はこの1行だけでOK */
 @import "tailwindcss";
+@import "./font-settings.css";
 
 /* カスタムスタイルはここに追記 */
