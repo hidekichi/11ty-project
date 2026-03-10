@@ -19,10 +19,10 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/*.{ico,png,svg,xml,txt}");
   // CSSはViteが処理するので11tyのコピー対象から外す
   eleventyConfig.addPassthroughCopy({ "src/assets/js": "assets/js" });
-  eleventyConfig.addPassthroughCopy({　"src/assets/images": "assets/images" });
+  eleventyConfig.addPassthroughCopy({ "src/assets/images": "assets/images" });
   // 将来 src/assets/fonts などが増えたらここに追加
-  eleventyConfig.addPassthroughCopy({　"src/assets/fonts": "assets/fonts" });
-  eleventyConfig.addPassthroughCopy({　"src/posts/img": "posts/img" });
+  eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "assets/fonts" });
+  eleventyConfig.addPassthroughCopy({ "src/posts/img": "posts/img" });
 
   // -----------------------------------------------------------------
   // Filters
